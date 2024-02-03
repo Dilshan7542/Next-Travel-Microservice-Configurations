@@ -16,9 +16,7 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     show-sql: true
     generate-ddl: true
-  #This is for config client
-  config:
-    import: optional:configserver:http://localhost:8888/
+
   #This is for eureka client
 
 eureka:

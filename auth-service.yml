@@ -8,9 +8,6 @@ spring:
       uri: mongodb://localhost:27017/next_travel
       auto-index-creation: true
 
-  #This is for config client
-  config:
-    import: optional:configserver:http://localhost:8888
   #This is for eureka client
 
 eureka:
